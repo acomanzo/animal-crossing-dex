@@ -1,0 +1,1945 @@
+{
+  "bugs": [{
+      "name": "Common butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Icon-commonbutterfly.png/revision/latest?cb=20200401005428",
+      "price": 160,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Yellow butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fa/NH-Icon-yellowbutterfly.png/revision/latest?cb=20200401005428",
+      "price": 160,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          9,
+          10
+        ],
+        "southern": [
+          3,
+          4,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Tiger butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Icon-tigerbutterfly.png/revision/latest?cb=20200401005429",
+      "price": 240,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Peacock butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-peacockbutterfly.png/revision/latest?cb=20200401005429",
+      "price": 2500,
+      "location": "Flying by Hybrid Flowers",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "southern": [
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Common bluebottle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-commonbluebottle.png/revision/latest?cb=20200401005428",
+      "price": 300,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Paper kite butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-paperkitebutterfly.png/revision/latest?cb=20200401005429",
+      "price": 1000,
+      "location": "Flying",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Great purple emperor",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/27/NH-Icon-greatpurpleemperor.png/revision/latest?cb=20200401005428",
+      "price": 3000,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Monarch butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-monarchbutterfly.png/revision/latest?cb=20200401005429",
+      "price": 140,
+      "location": "Flying",
+      "time": "4 AM - 5 PM",
+      "months": {
+        "northern": [
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Emperor butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-emperorbutterfly.png/revision/latest?cb=20200401005428",
+      "price": 4000,
+      "location": "Flying",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Agrias butterfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-agriasbutterfly.png/revision/latest?cb=20200401005428",
+      "price": 3000,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Rajah Brooke's birdwing",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-rajahbrookesbirdwing.png/revision/latest?cb=20200401005428",
+      "price": 2500,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Queen Alexandra's birdwing",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b8/NH-Icon-queenalexandrasbirdwing.png/revision/latest?cb=20200401005429",
+      "price": 4000,
+      "location": "Flying",
+      "time": "8 AM - 4 PM",
+      "months": {
+        "northern": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Moth",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-moth.png/revision/latest?cb=20200401005428",
+      "price": 130,
+      "location": "Flying by Light",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Atlas Moth",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-atlasmoth.png/revision/latest?cb=20200401005428",
+      "price": 3000,
+      "location": "On Trees",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Madagascan sunset moth",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/NH-Icon-madagascansunsetmoth.png/revision/latest?cb=20200401005429",
+      "price": 2500,
+      "location": "Flying",
+      "time": "8 AM - 4 PM",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Long locust",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Icon-longlocust.png/revision/latest?cb=20200401005429",
+      "price": 200,
+      "location": "On the Ground",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Migratory locust",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/NH-Icon-migratorylocust.png/revision/latest?cb=20200401005429",
+      "price": 600,
+      "location": "On the Ground",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Rice grasshopper",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Icon-ricegrasshopper.png/revision/latest?cb=20200401005428",
+      "price": 160,
+      "location": "On the Ground",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Grasshopper",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Icon-grasshopper.png/revision/latest?cb=20200401005428",
+      "price": 160,
+      "location": "On the Ground",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Cricket",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7a/NH-Icon-cricket.png/revision/latest?cb=20200401005428",
+      "price": 130,
+      "location": "On the Ground",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Bell cricket",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-bellcricket.png/revision/latest?cb=20200401005428",
+      "price": 430,
+      "location": "On the Ground",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          9,
+          10
+        ],
+        "southern": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Mantis",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Icon-mantis.png/revision/latest?cb=20200401005429",
+      "price": 430,
+      "location": "On Flowers",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Orchid mantis",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-orchidmantis.png/revision/latest?cb=20200401005428",
+      "price": 2400,
+      "location": "On Flowers (White)",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Honeybee",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-honeybee.png/revision/latest?cb=20200401005428",
+      "price": 200,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "southern": [
+          1,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Wasp",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-wasp.png/revision/latest?cb=20200401005428",
+      "price": 2500,
+      "location": "Shaking Trees",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Brown cicada",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Icon-browncicada.png/revision/latest?cb=20200401005428",
+      "price": 250,
+      "location": "On Trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Robust cicada",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-robustcicada.png/revision/latest?cb=20200401005429",
+      "price": 300,
+      "location": "On Trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Giant cicada",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/NH-Icon-giantcicada.png/revision/latest?cb=20200401005428",
+      "price": 500,
+      "location": "On Trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Walker cicada",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ec/NH-Icon-walkercicada.png/revision/latest?cb=20200401005429",
+      "price": 400,
+      "location": "On Trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          8,
+          9
+        ],
+        "southern": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Evening cicada",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Icon-eveningcicada.png/revision/latest?cb=20200401005428",
+      "price": 550,
+      "location": "On Trees",
+      "time": "4 AM - 8 AM & 4 PM - 7 PM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Cicada shell",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/97/NH-Icon-cicadashell.png/revision/latest?cb=20200401005428",
+      "price": 10,
+      "location": "On Trees",
+      "time": "All day",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Red dragonfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-Icon-reddragonfly.png/revision/latest?cb=20200401005428",
+      "price": 180,
+      "location": "Flying",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": [
+          9,
+          10
+        ],
+        "southern": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Darner dragonfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Icon-darnerdragonfly.png/revision/latest?cb=20200401005428",
+      "price": 230,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Banded dragonfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Icon-bandeddragonfly.png/revision/latest?cb=20200401005428",
+      "price": 4500,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Damselfly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Icon-damselfly.png/revision/latest?cb=20200401005428",
+      "price": 500,
+      "location": "Flying",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          11,
+          12
+        ],
+        "southern": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Firefly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ae/NH-Icon-firefly.png/revision/latest?cb=20200401005428",
+      "price": 300,
+      "location": "Flying",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": [
+          6
+        ],
+        "southern": [
+          12
+        ]
+      }
+    },
+    {
+      "name": "Mole cricket",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Icon-molecricket.png/revision/latest?cb=20200401005429",
+      "price": 500,
+      "location": "Underground",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          11,
+          12
+        ],
+        "southern": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Pondskater",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Icon-pondskater.png/revision/latest?cb=20200401005429",
+      "price": 130,
+      "location": "On Ponds and Rivers",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Diving beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Icon-divingbeetle.png/revision/latest?cb=20200401005428",
+      "price": 800,
+      "location": "On Ponds and Rivers",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Giant water bug",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-giantwaterbug.png/revision/latest?cb=20200401005428",
+      "price": 2000,
+      "location": "On Ponds and Rivers",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Stinkbug",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/NH-Icon-stinkbug.png/revision/latest?cb=20200401005429",
+      "price": 120,
+      "location": "On Flowers",
+      "time": "All day",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Man-faced stink bug",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-manfacedstinkbug.png/revision/latest?cb=20200401005429",
+      "price": 1000,
+      "location": "On Flowers",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Ladybug",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Icon-ladybug.png/revision/latest?cb=20200401005428",
+      "price": 200,
+      "location": "On Flowers",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": [
+          3,
+          4,
+          5,
+          6,
+          10
+        ],
+        "southern": [
+          4,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Tiger beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-tigerbeetle.png/revision/latest?cb=20200401005428",
+      "price": 1500,
+      "location": "On the Ground",
+      "time": "All day",
+      "months": {
+        "northern": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Jewel beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-jewelbeetle.png/revision/latest?cb=20200401005428",
+      "price": 2400,
+      "location": "On Tree Stumps",
+      "time": "All day",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Violin beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-violinbeetle.png/revision/latest?cb=20200401005429",
+      "price": 450,
+      "location": "On Tree Stumps",
+      "time": "All day",
+      "months": {
+        "northern": [
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          3,
+          4,
+          5,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Citrus long horned beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-citruslonghornedbeetle.png/revision/latest?cb=20200401005428",
+      "price": 350,
+      "location": "On Tree Stumps",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Rosalia batesi beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/NH-Icon-rosaliabatesibeetle.png/revision/latest?cb=20200401005429",
+      "price": 3000,
+      "location": "On Tree Stumps",
+      "time": "All day",
+      "months": {
+        "northern": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Blue weevil beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f5/NH-Icon-blueweevilbeetle.png/revision/latest?cb=20200401005428",
+      "price": 800,
+      "location": "On Trees (Coconut?)",
+      "time": "All day",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Dung beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-dungbeetle.png/revision/latest?cb=20200401005431",
+      "price": 3000,
+      "location": "On the Ground (rolling snowballs)",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          12
+        ],
+        "southern": [
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Earth-boring dung beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-earthboringdungbeetle.png/revision/latest?cb=20200401005428",
+      "price": 300,
+      "location": "On the Ground",
+      "time": "All day",
+      "months": {
+        "northern": [
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Scarab beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Icon-scarabbeetle.png/revision/latest?cb=20200401005429",
+      "price": 10000,
+      "location": "On Trees",
+      "time": "11 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Drone beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-dronebeetle.png/revision/latest?cb=20200401005428",
+      "price": 200,
+      "location": "On Trees",
+      "time": "All day",
+      "months": {
+        "northern": [
+          6,
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Goliath beetle",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5b/NH-Icon-goliathbeetle.png/revision/latest?cb=20200401005428",
+      "price": 8000,
+      "location": "On Trees (Coconut)",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Saw stag",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Icon-sawstag.png/revision/latest?cb=20200401005429",
+      "price": 2000,
+      "location": "On Trees",
+      "time": "All day",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Miyama stag",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/NH-Icon-miyamastag.png/revision/latest?cb=20200401005429",
+      "price": 1000,
+      "location": "On Trees",
+      "time": "All day",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Giant stag",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-giantstag.png/revision/latest?cb=20200401005428",
+      "price": 10000,
+      "location": "On Trees",
+      "time": "11 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Rainbow stag",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-rainbowstag.png/revision/latest?cb=20200401005429",
+      "price": 6000,
+      "location": "On Trees",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Cyclommatus stag",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/17/NH-Icon-cyclommatusstag.png/revision/latest?cb=20200401005428",
+      "price": 8000,
+      "location": "On Trees (Coconut)",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Golden stag",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-goldenstag.png/revision/latest?cb=20200401005428",
+      "price": 12000,
+      "location": "On Trees (Coconut)",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Giraffe stag",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-giraffestag.png/revision/latest?cb=20200401005428",
+      "price": 12000,
+      "location": "On Trees (Coconut?)",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Horned dynastid",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Icon-horneddynastid.png/revision/latest?cb=20200401005428",
+      "price": 1350,
+      "location": "On Trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Horned atlas",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-hornedatlas.png/revision/latest?cb=20200401005428",
+      "price": 8000,
+      "location": "On Trees (Coconut)",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Horned elephant",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-hornedelephant.png/revision/latest?cb=20200401005429",
+      "price": 8000,
+      "location": "On Trees (Coconut)",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Horned hercules",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/NH-Icon-hornedhercules.png/revision/latest?cb=20200401005428",
+      "price": 12000,
+      "location": "On Trees (Coconut)",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": [
+          7,
+          8
+        ],
+        "southern": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Walking stick",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/62/NH-Icon-walkingstick.png/revision/latest?cb=20200401005428",
+      "price": 600,
+      "location": "On Trees",
+      "time": "4 AM - 8 AM & 5 PM - 7 PM",
+      "months": {
+        "northern": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Walking leaf",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cb/NH-Icon-walkingleaf.png/revision/latest?cb=20200401005429",
+      "price": 600,
+      "location": "Under Trees Disguised as Leafs",
+      "time": "All day",
+      "months": {
+        "northern": [
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Bagworm",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/81/NH-Icon-bagworm.png/revision/latest?cb=20200401005428",
+      "price": 600,
+      "location": "Shaking Trees",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Ant",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/45/NH-Icon-ant.png/revision/latest?cb=20200401005428",
+      "price": 80,
+      "location": "On rotten food",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Hermit crab",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-hermitcrab.png/revision/latest?cb=20200401005430",
+      "price": 1000,
+      "location": "Beach disguised as Shells",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Wharf roach",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Icon-wharfroach.png/revision/latest?cb=20200401005428",
+      "price": 200,
+      "location": "On Beach Rocks",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-fly.png/revision/latest?cb=20200401005428",
+      "price": 60,
+      "location": "On Trash Items",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Mosquito",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-mosquito.png/revision/latest?cb=20200401005429",
+      "price": 130,
+      "location": "Flying",
+      "time": "5 PM - 4 AM",
+      "months": {
+        "northern": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Flea",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/92/NH-Icon-flea.png/revision/latest?cb=20200401005428",
+      "price": 70,
+      "location": "Villager's Heads",
+      "time": "All day",
+      "months": {
+        "northern": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Snail",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Icon-snail.png/revision/latest?cb=20200401005429",
+      "price": 250,
+      "location": "On Rocks and Bushes (Rain)",
+      "time": "All day",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Pill bug",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Icon-pillbug.png/revision/latest?cb=20200401005428",
+      "price": 250,
+      "location": "Hitting Rocks",
+      "time": "11 PM - 4 PM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Centipede",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Icon-centipede.png/revision/latest?cb=20200401005429",
+      "price": 300,
+      "location": "Hitting Rocks",
+      "time": "4 PM - 11 PM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Spider",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-spider.png/revision/latest?cb=20200401005429",
+      "price": 600,
+      "location": "Shaking Trees",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Tarantula",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Icon-tarantula.png/revision/latest?cb=20200401005429",
+      "price": 8000,
+      "location": "On the Ground",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": [
+          1,
+          2,
+          3,
+          4,
+          11,
+          12
+        ],
+        "southern": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Scorpion",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/34/NH-Icon-scorpion.png/revision/latest?cb=20200401005429",
+      "price": 8000,
+      "location": "On the Ground",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "southern": [
+          1,
+          2,
+          3,
+          4,
+          11,
+          12
+        ]
+      }
+    }
+  ]
+}
