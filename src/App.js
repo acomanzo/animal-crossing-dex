@@ -3,158 +3,10 @@ import Button from 'react-bootstrap/Button';
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Spinner from 'react-bootstrap/Spinner';
+import { Bug } from './components.js';
+import { Fish } from './components.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-function Image(props) {
-  return <img src={props.image_url} alt={props.name} height={50}/>
-}
-
-function Name(props) {
-  return <div>{props.name}</div>
-}
-
-function Price(props) {
-  return <div>{props.price}</div>
-}
-
-function Location(props) {
-  return <div>{props.location}</div>
-}
-
-function ShadowSize(props) {
-  return <div>{props.shadow_size}</div>
-}
-
-function Time(props) {
-  return <div>{props.time}</div>
-}
-
-function MonthsNorthern(props) {
-  var months = ""
-  for (var i = 0; i < props.months.length; i++) {
-    switch(props.months[i]) {
-      case 1:
-        months = months + "Jan" + ", ";
-        break;
-      case 2:
-        months = months + "Feb" + ", ";
-        break;
-      case 3:
-        months = months + "Mar" + ", ";
-        break;
-      case 4:
-        months = months + "Apr" + ", ";
-        break;
-      case 5:
-        months = months + "May" + ", ";
-        break;
-      case 6:
-        months = months + "Jun" + ", ";
-        break;
-      case 7:
-        months = months + "Jul" + ", ";
-        break;
-      case 8:
-        months = months + "Aug" + ", ";
-        break;
-      case 9:
-        months = months + "Sep" + ", ";
-        break;
-      case 10:
-        months = months + "Oct" + ", ";
-        break;
-      case 11:
-        months = months + "Nov" + ", ";
-        break;
-      case 12:
-        months = months + "Dec" + ", ";
-        break;
-      default:
-        break;
-    }
-  }
-  months = months.substring(0, months.length - 2);
-  return <div>{months}</div>
-}
-
-function MonthsSouthern(props) {
-  var months = ""
-  for (var i = 0; i < props.months.length; i++) {
-    switch(props.months[i]) {
-      case 1:
-        months = months + "Jan" + ", ";
-        break;
-      case 2:
-        months = months + "Feb" + ", ";
-        break;
-      case 3:
-        months = months + "Mar" + ", ";
-        break;
-      case 4:
-        months = months + "Apr" + ", ";
-        break;
-      case 5:
-        months = months + "May" + ", ";
-        break;
-      case 6:
-        months = months + "Jun" + ", ";
-        break;
-      case 7:
-        months = months + "Jul" + ", ";
-        break;
-      case 8:
-        months = months + "Aug" + ", ";
-        break;
-      case 9:
-        months = months + "Sep" + ", ";
-        break;
-      case 10:
-        months = months + "Oct" + ", ";
-        break;
-      case 11:
-        months = months + "Nov" + ", ";
-        break;
-      case 12:
-        months = months + "Dec" + ", ";
-        break;
-      default:
-        break;
-    }
-  }
-  months = months.substring(0, months.length - 2);
-  return <div>{months}</div>
-  /**/
-}
-
-function Bug(props) {
-  return (
-    <div className="animal-list-item">
-      <Image image_url={props.image_url} />
-      <Name name={props.name} />
-      <Price price={props.price} />
-      <Location location={props.location} />
-      <Time time={props.time} />
-      <MonthsNorthern months={props.monthsNorthern} />
-      <MonthsSouthern months={props.monthsSouthern} />
-    </div>
-  );
-}
-
-function Fish(props) {
-  return (
-    <div className="animal-list-item">
-      <Image image_url={props.image_url} />
-      <Name name={props.name} />
-      <Price price={props.price} />
-      <Location location={props.location} />
-      <ShadowSize shadow_size={props.shadow_size} />
-      <Time time={props.time} />
-      <MonthsNorthern months={props.monthsNorthern} />
-      <MonthsSouthern months={props.monthsSouthern} />
-    </div>
-  )
-}
 
 class List extends React.Component {
   constructor(props) {
@@ -171,54 +23,41 @@ class List extends React.Component {
         items: props.items
       };
     }
-
     return null;
   }
 
   render() {
-    /*try {
-      console.log(this.state.items[0].shadow_size);
-    } catch(err) {
-      console.log(err)
-    }*/
     return (
-      <div>
-        <ul className="animal-list">
-          {(this.state.items || this.state.items.length > 0) ? (this.state.items.map(item => {
-            switch(typeof item.shadow_size) {
-              case 'undefined':
-                return (
-                  <li key={item.name} className="listItem">
-                    <Bug
-                      image_url={item.image_url}
-                      name={item.name}
-                      price={item.price}
-                      location={item.location}
-                      time={item.time}
-                      monthsNorthern={item.months.northern}
-                      monthsSouthern={item.months.southern}
-                    />
-                </li>)
-                break;
-              default:
-                return (
-                  <li key={item.name} className="listItem">
-                    <Fish
-                      image_url={item.image_url}
-                      name={item.name}
-                      price={item.price}
-                      location={item.location}
-                      shadow_size={item.shadow_size}
-                      time={item.time}
-                      monthsNorthern={item.months.northern}
-                      monthsSouthern={item.months.southern}
-                    />
-                  </li>
-                )
-                break;
-            }
-          })) : <div>Loading...</div>}
-        </ul>
+      <div id="animal-list">
+        {(this.state.items || this.state.items.length > 0) ? (this.state.items.map(item => {
+          switch(typeof item.shadow_size) {
+            case 'undefined':
+              return (
+                <Bug
+                  image_url={item.image_url}
+                  name={item.name}
+                  price={item.price}
+                  location={item.location}
+                  time={item.time}
+                  monthsNorthern={item.months.northern}
+                  monthsSouthern={item.months.southern}
+                />
+              )
+            default:
+              return (
+                <Fish
+                  image_url={item.image_url}
+                  name={item.name}
+                  price={item.price}
+                  location={item.location}
+                  shadow_size={item.shadow_size}
+                  time={item.time}
+                  monthsNorthern={item.months.northern}
+                  monthsSouthern={item.months.southern}
+                />
+              )
+          }
+        })) : <div>Loading...</div>}
       </div>
     );
   }
@@ -229,8 +68,6 @@ class App extends Component {
     super(props);
 
     this.state = {
-      /*items: [],
-      filteredItems: []*/
       items: null,
       filteredItems: null,
       displayBugs: false,
@@ -279,13 +116,6 @@ class App extends Component {
         this.setState({
           filteredItems: data
         })
-
-        /*this.setState({
-          items: data
-        });
-        this.setState({
-          filteredItems: data
-        });*/
       }.bind(this))
       .catch(error => console.log("Fetch error: " + error));
 
@@ -308,9 +138,6 @@ class App extends Component {
         this.setState({
           filteredItems: data
         })
-          /*this.setState({
-            filteredItems: this.state.filteredItems.concat(data)
-          })*/
       }.bind(this))
       .catch(error => console.log("Fetch error: " + error))
 
@@ -395,23 +222,14 @@ class App extends Component {
 
   updateMonths(event) {
     var temp = this.state.months
-    //alert(temp[1])
-    //alert(typeof temp[1])
     const value = Number(event.target.value)
-    //alert(value)
-    //alert(typeof value)
-    //alert(value === temp[1])
-
-    //let index = temp.indexOf(event.target.value)
     const index = temp.indexOf(value)
-    //alert(index)
     if (index === -1) {
       temp.push(value)
     }
     else {
       temp.splice(index, 1);
     }
-    //alert(temp)
     this.setState({
       months: temp
     })
@@ -532,8 +350,6 @@ class App extends Component {
         const animalTime = animal.time.split(" ")
         const animalTimeArray = [animalTime[0].concat(animalTime[1]).toLowerCase(),
                                  animalTime[3].concat(animalTime[4]).toLowerCase()]
-        //console.log("animalTimeArray: " + animalTimeArray[0])
-        //console.log("animalTimeArray: " + animalTimeArray[1])
         matchTime = self.rangesOverlap(fromTime, toTime, animalTimeArray[0], animalTimeArray[1])
       }
 
@@ -590,105 +406,108 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          Header
+          <h1>Animal Crossing Index</h1>
         </header>
-        <ToggleButtonGroup type="checkbox" className="mb-1">
-          <ToggleButton value={1} onChange={this.toggleBugs}>Bugs</ToggleButton>
-          <ToggleButton value={2} onChange={this.toggleFish}>Fish</ToggleButton>
-        </ToggleButtonGroup>
-        <br />
-        <label>From when?</label>
-        <select id="from-time" onChange={this.updateFromTime}>
-          <optgroup label="Morning (AM)">
-            <option value="12am">12:00</option>
-            <option value="1am">1:00</option>
-            <option value="2am">2:00</option>
-            <option value="3am">3:00</option>
-            <option value="4am">4:00</option>
-            <option value="5am">5:00</option>
-            <option value="6am">6:00</option>
-            <option value="7am">7:00</option>
-            <option value="8am">8:00</option>
-            <option value="9am">9:00</option>
-            <option value="10am">10:00</option>
-            <option value="11am">11:00</option>
-          </optgroup>
-          <optgroup label="Afternoon (PM)">
-            <option value="12pm">12:00</option>
-            <option value="1pm">1:00</option>
-            <option value="2pm">2:00</option>
-            <option value="3pm">3:00</option>
-            <option value="4pm">4:00</option>
-            <option value="5pm">5:00</option>
-            <option value="6pm">6:00</option>
-            <option value="7pm">7:00</option>
-            <option value="8pm">8:00</option>
-            <option value="9pm">9:00</option>
-            <option value="10pm">10:00</option>
-            <option value="11pm">11:00</option>
-          </optgroup>
-        </select>
-        <label>Until when?</label>
-        <select id="to-time" onChange={this.updateToTime}>
-          <optgroup label="Morning (AM)">
-            <option value="12am">12:00</option>
-            <option value="1am">1:00</option>
-            <option value="2am">2:00</option>
-            <option value="3am">3:00</option>
-            <option value="4am">4:00</option>
-            <option value="5am">5:00</option>
-            <option value="6am">6:00</option>
-            <option value="7am">7:00</option>
-            <option value="8am">8:00</option>
-            <option value="9am">9:00</option>
-            <option value="10am">10:00</option>
-            <option value="11am">11:00</option>
-          </optgroup>
-          <optgroup label="Afternoon (PM)">
-            <option value="12pm">12:00</option>
-            <option value="1pm">1:00</option>
-            <option value="2pm">2:00</option>
-            <option value="3pm">3:00</option>
-            <option value="4pm">4:00</option>
-            <option value="5pm">5:00</option>
-            <option value="6pm">6:00</option>
-            <option value="7pm">7:00</option>
-            <option value="8pm">8:00</option>
-            <option value="9pm">9:00</option>
-            <option value="10pm">10:00</option>
-            <option value="11pm">11:00</option>
-          </optgroup>
-        </select>
-        <br />
-        <ToggleButtonGroup type="radio" name="hemispheres" className="mb-1">
-          <ToggleButton id="northernButton" value={1} onChange={this.toggleNorthernHemisphere}>Northern Hemisphere</ToggleButton>
-          <ToggleButton id="southernButton" value={2} onChange={this.toggleSouthernHemisphere}>Southern Hemisphere</ToggleButton>
-        </ToggleButtonGroup>
-        <br />
-        <ToggleButtonGroup type="checkbox" className="mb-1">
-          <ToggleButton value={1} onChange={this.updateMonths}>Jan</ToggleButton>
-          <ToggleButton value={2} onChange={this.updateMonths}>Feb</ToggleButton>
-          <ToggleButton value={3} onChange={this.updateMonths}>Mar</ToggleButton>
-          <ToggleButton value={4} onChange={this.updateMonths}>Apr</ToggleButton>
-          <ToggleButton value={5} onChange={this.updateMonths}>May</ToggleButton>
-          <ToggleButton value={6} onChange={this.updateMonths}>Jun</ToggleButton>
-          <ToggleButton value={7} onChange={this.updateMonths}>Jul</ToggleButton>
-          <ToggleButton value={8} onChange={this.updateMonths}>Aug</ToggleButton>
-          <ToggleButton value={9} onChange={this.updateMonths}>Sep</ToggleButton>
-          <ToggleButton value={10} onChange={this.updateMonths}>Oct</ToggleButton>
-          <ToggleButton value={11} onChange={this.updateMonths}>Nov</ToggleButton>
-          <ToggleButton value={12} onChange={this.updateMonths}>Dec</ToggleButton>
-        </ToggleButtonGroup>
-        <br />
-        <Button variant="warning" size="lg" className="mb-1" onClick={this.cook}>
-          Cook 👩🏾‍🍳
-        </Button>
-        <br />
-        <input type="text" onChange={this.handleSearch} placeholder="Search by name..." />
-        <Button onChange={console.log("he")} variant="success" size="lg" block>
-          What can I catch right now?
-        </Button>
-        <div>
+        <div id="hudContainer">
+          <ToggleButtonGroup type="checkbox" className="mb-1 flex-wrap">
+            <ToggleButton value={1} onChange={this.toggleBugs}>Bugs</ToggleButton>
+            <ToggleButton value={2} onChange={this.toggleFish}>Fish</ToggleButton>
+          </ToggleButtonGroup>
+          <br />
+          <label>From when?</label>
+          <select id="from-time" onChange={this.updateFromTime}>
+            <optgroup label="Morning (AM)">
+              <option value="12am">12:00</option>
+              <option value="1am">1:00</option>
+              <option value="2am">2:00</option>
+              <option value="3am">3:00</option>
+              <option value="4am">4:00</option>
+              <option value="5am">5:00</option>
+              <option value="6am">6:00</option>
+              <option value="7am">7:00</option>
+              <option value="8am">8:00</option>
+              <option value="9am">9:00</option>
+              <option value="10am">10:00</option>
+              <option value="11am">11:00</option>
+            </optgroup>
+            <optgroup label="Afternoon (PM)">
+              <option value="12pm">12:00</option>
+              <option value="1pm">1:00</option>
+              <option value="2pm">2:00</option>
+              <option value="3pm">3:00</option>
+              <option value="4pm">4:00</option>
+              <option value="5pm">5:00</option>
+              <option value="6pm">6:00</option>
+              <option value="7pm">7:00</option>
+              <option value="8pm">8:00</option>
+              <option value="9pm">9:00</option>
+              <option value="10pm">10:00</option>
+              <option value="11pm">11:00</option>
+            </optgroup>
+          </select>
+          <br />
+          <label>Until when?</label>
+          <select id="to-time" onChange={this.updateToTime}>
+            <optgroup label="Morning (AM)">
+              <option value="12am">12:00</option>
+              <option value="1am">1:00</option>
+              <option value="2am">2:00</option>
+              <option value="3am">3:00</option>
+              <option value="4am">4:00</option>
+              <option value="5am">5:00</option>
+              <option value="6am">6:00</option>
+              <option value="7am">7:00</option>
+              <option value="8am">8:00</option>
+              <option value="9am">9:00</option>
+              <option value="10am">10:00</option>
+              <option value="11am">11:00</option>
+            </optgroup>
+            <optgroup label="Afternoon (PM)">
+              <option value="12pm">12:00</option>
+              <option value="1pm">1:00</option>
+              <option value="2pm">2:00</option>
+              <option value="3pm">3:00</option>
+              <option value="4pm">4:00</option>
+              <option value="5pm">5:00</option>
+              <option value="6pm">6:00</option>
+              <option value="7pm">7:00</option>
+              <option value="8pm">8:00</option>
+              <option value="9pm">9:00</option>
+              <option value="10pm">10:00</option>
+              <option value="11pm">11:00</option>
+            </optgroup>
+          </select>
+          <br />
+          <ToggleButtonGroup type="radio" name="hemispheres" className="mb-1 flex-wrap">
+            <ToggleButton id="northernButton" value={1} onChange={this.toggleNorthernHemisphere}>Northern Hemisphere</ToggleButton>
+            <ToggleButton id="southernButton" value={2} onChange={this.toggleSouthernHemisphere}>Southern Hemisphere</ToggleButton>
+          </ToggleButtonGroup>
+          <br />
+          <ToggleButtonGroup type="checkbox" className="mb-1 flex-wrap">
+            <ToggleButton value={1} onChange={this.updateMonths}>Jan</ToggleButton>
+            <ToggleButton value={2} onChange={this.updateMonths}>Feb</ToggleButton>
+            <ToggleButton value={3} onChange={this.updateMonths}>Mar</ToggleButton>
+            <ToggleButton value={4} onChange={this.updateMonths}>Apr</ToggleButton>
+            <ToggleButton value={5} onChange={this.updateMonths}>May</ToggleButton>
+            <ToggleButton value={6} onChange={this.updateMonths}>Jun</ToggleButton>
+            <ToggleButton value={7} onChange={this.updateMonths}>Jul</ToggleButton>
+            <ToggleButton value={8} onChange={this.updateMonths}>Aug</ToggleButton>
+            <ToggleButton value={9} onChange={this.updateMonths}>Sep</ToggleButton>
+            <ToggleButton value={10} onChange={this.updateMonths}>Oct</ToggleButton>
+            <ToggleButton value={11} onChange={this.updateMonths}>Nov</ToggleButton>
+            <ToggleButton value={12} onChange={this.updateMonths}>Dec</ToggleButton>
+          </ToggleButtonGroup>
+          <br />
+          <Button variant="warning" size="lg" className="mb-1" onClick={this.cook}>
+            Cook <span role="img">👩🏾‍🍳</span>
+          </Button>
+          <br />
+          <input type="text" onChange={this.handleSearch} placeholder="Search all by name..." />
+          <Button onChange={console.log("he")} variant="success" size="lg" block>
+            What can I catch right now?
+          </Button>
+        </div>
+        <div id="animal-list-container">
           {this.state.filteredItems ?
             <List items={this.state.filteredItems} /> :
             <Spinner animation="border" role="status">
