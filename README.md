@@ -1,3 +1,12 @@
+## Usage
+Step 1: Navigate to the root directory
+Step 2 (will default to port 3000):
+###`json-server --watch stock_bugs.json`
+Step 3:
+###`json-server --watch stock_fish.json --port 3001`
+Step 4:
+###`npm start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
