@@ -421,8 +421,6 @@ class App extends Component {
 
   handleWhatCanICatchNow() {
     const date = new Date()
-    var monthContainer = document.getElementById("monthContainer")
-    var month = monthContainer.children[date.getMonth() - 1]
     var hour = date.getHours()
     this.setState({
       months: [date.getMonth()]
@@ -541,7 +539,7 @@ class App extends Component {
             <ToggleButton id="southernButton" value={2} onChange={this.toggleSouthernHemisphere}>Southern Hemisphere</ToggleButton>
           </ToggleButtonGroup>
           <br />
-          <ToggleButtonGroup id="monthContainer" type="checkbox" className="mb-1 flex-wrap">
+          <ToggleButtonGroup type="checkbox" className="mb-1 flex-wrap">
             <ToggleButton value={1} onChange={this.updateMonths}>Jan</ToggleButton>
             <ToggleButton value={2} onChange={this.updateMonths}>Feb</ToggleButton>
             <ToggleButton value={3} onChange={this.updateMonths}>Mar</ToggleButton>
