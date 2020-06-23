@@ -1,8 +1,9 @@
 # Usage
 1. Navigate to the root directory
-2. Will default to port 3000: `json-server --watch stock_bugs.json`
-3. `json-server --watch stock_fish.json --port 3001`
-4. `npm start`
+2. `nvm use 14.4.0`
+3. Will default to port 3000: `json-server --watch data/stock/stock_bugs.json`
+4. `json-server --watch data/stock/stock_fish.json --port 3001`
+5. `npm start`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

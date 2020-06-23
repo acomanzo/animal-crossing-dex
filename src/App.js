@@ -34,6 +34,7 @@ class List extends React.Component {
             case 'undefined':
               return (
                 <Bug
+                  key={item.name}
                   image_url={item.image_url}
                   name={item.name}
                   price={item.price}
@@ -46,6 +47,7 @@ class List extends React.Component {
             default:
               return (
                 <Fish
+                  key={item.name}
                   image_url={item.image_url}
                   name={item.name}
                   price={item.price}
@@ -88,6 +90,7 @@ class App extends Component {
     this.updateMonths = this.updateMonths.bind(this);
     this.cook = this.cook.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
+    this.handleWhatCanICatchNow = this.handleWhatCanICatchNow.bind(this);
   }
 
   updateList() {
@@ -253,6 +256,8 @@ class App extends Component {
     from2 = from2.toLowerCase();
     to2 = to2.toLowerCase();
 
+    // for each time, cut out am/pm and convert to military time. If a time
+    // updates to 24, switch it to 0
     if (from1.indexOf("pm") !== -1) {
       from1 = Number(from1.slice(0, -2).trim()) + 12
       if (from1 === 24) {
@@ -311,8 +316,13 @@ class App extends Component {
 
   }
 
+  /**
+   * Filters items as specified by the user's interaction with the interface
+   * and updates the array filteredItems. Applies a function to every animal
+   * in this.state.items and displays it if it passes the filters.
+   *
+   */
   cook() {
-    console.log(this.state)
     if (this.state.items == null) {
       return
     }
@@ -321,24 +331,30 @@ class App extends Component {
     const toTime = this.state.toTime
 
     var self = this; // for the callback
+    // if bugs are toggled on or fish are toggled on and this animal is a
+    // bug or a fish, return true
     temp = temp.filter(function(animal) {
       var matchBugsToggle = false
       var matchFishToggle = false
       const displayBugs = self.state.displayBugs
       const displayFish = self.state.displayFish
+      // if both are toggled on, display all fish and bugs
       if (displayBugs && displayFish) {
         matchBugsToggle = true
         matchFishToggle = true
       }
+      // if bugs are toggled on and the animal is a bug, display it
       else if (displayBugs && (typeof animal.shadow_size === 'undefined')) {
         matchBugsToggle = true
       }
+      // if the fish are toggled on and the animal is a fish, display it
       else if (displayFish && (typeof animal.shadow_size !== 'undefined')) {
         matchFishToggle = true
       }
 
       return matchBugsToggle || matchFishToggle
     })
+    // if this animal passes the time and month check, return true
     temp = temp.filter(function(animal) {
       var matchTime = false
       var matchMonths = false
@@ -347,12 +363,17 @@ class App extends Component {
         matchTime = true;
       }
       else {
+        // get an array of the animal's time field
         const animalTime = animal.time.split(" ")
+        // make a new array such that the first index is the starting time
+        // and the second index is the ending time, including AM/PM
         const animalTimeArray = [animalTime[0].concat(animalTime[1]).toLowerCase(),
                                  animalTime[3].concat(animalTime[4]).toLowerCase()]
         matchTime = self.rangesOverlap(fromTime, toTime, animalTimeArray[0], animalTimeArray[1])
       }
 
+      // if the months chosen are a subset of this animal's set of months,
+      // display it
       switch (self.state.hemisphere) {
         case "northern":
           matchMonths = self.state.months.every(val => animal.months.northern.includes(val))
@@ -395,6 +416,43 @@ class App extends Component {
 
     this.setState({
       filteredItems: newList
+    })
+  }
+
+  handleWhatCanICatchNow() {
+    const date = new Date()
+    var monthContainer = document.getElementById("monthContainer")
+    var month = monthContainer.children[date.getMonth() - 1]
+    var hour = date.getHours()
+    this.setState({
+      months: [date.getMonth()]
+    })
+    if (hour >= 12) {
+      hour = hour - 12
+      this.setState({
+        fromTime: hour + "pm"
+      })
+      this.setState({
+        toTime: (hour + 1) + "pm"
+      })
+    } else {
+      this.setState({
+        fromTime: hour + "am"
+      })
+      this.setState({
+        toTime: (hour + 1) + "am"
+      })
+    }
+    this.setState({
+      hemisphere: "northern"
+    })
+    this.setState({
+      displayBugs: true
+    })
+    this.setState({
+      displayFish: true
+    }, () => {
+      this.cook()
     })
   }
 
@@ -503,7 +561,7 @@ class App extends Component {
           </Button>
           <br />
           <input type="text" onChange={this.handleSearch} placeholder="Search all by name..." />
-          <Button onChange={console.log("he")} variant="success" size="lg" block>
+          <Button onClick={this.handleWhatCanICatchNow} variant="success" size="lg" block>
             What can I catch right now?
           </Button>
         </div>
@@ -516,7 +574,10 @@ class App extends Component {
           }
         </div>
         <footer>
-          Made by Tony Comanzo
+          <p>Animal Crossing and Nintendo are registered trademarks of Nintendo
+          of America and we do not claim to own any intellectual property
+          associated with Animal Crossing.
+          </p>
         </footer>
       </div>
     );
