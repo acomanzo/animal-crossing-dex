@@ -421,8 +421,6 @@ class App extends Component {
 
   handleWhatCanICatchNow() {
     const date = new Date()
-    var monthContainer = document.getElementById("monthContainer")
-    var month = monthContainer.children[date.getMonth() - 1]
     var hour = date.getHours()
     this.setState({
       months: [date.getMonth()]
