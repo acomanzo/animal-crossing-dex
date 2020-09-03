@@ -1,0 +1,6 @@
+{
+"name": "Start on Heroku: Node.js",
+"description": "A small Node.js app using React for animal crossing lookup",
+"repository": "https://github.com/acomanzo/animal-crossing-dex",
+"keywords": ["node", "react", "heroku"]
+}

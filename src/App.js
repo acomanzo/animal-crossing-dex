@@ -392,126 +392,135 @@ class App extends Component {
   }
 
   handleWhatCanICatchNow() {
-    const date = new Date();
-    const hour = date.getHours(); // expect 0 - 23
-    const month = date.getMonth(); // expect 0 - 11
-    // using .click() will mimic the user actually clicking
-    // and even call functions
-    var monthButton = document.getElementById("months-group").children[month];
-    monthButton.click();
-    var fromTimeElement = document.getElementById("from-time");
-    var toTimeElement = document.getElementById("to-time");
-    switch(hour) {
-      case 0:
-        fromTimeElement.selectedIndex = 0;
-        toTimeElement.selectedIndex = 1;
-        break;
-      case 1:
-        fromTimeElement.selectedIndex = 1;
-        toTimeElement.selectedIndex = 2;
-        break;
-      case 2:
-        fromTimeElement.selectedIndex = 2;
-        toTimeElement.selectedIndex = 3;
-        break;
-      case 3:
-        fromTimeElement.selectedIndex = 3;
-        toTimeElement.selectedIndex = 4;
-        break;
-      case 4:
-        fromTimeElement.selectedIndex = 4;
-        toTimeElement.selectedIndex = 5;
-        break;
-      case 5:
-        fromTimeElement.selectedIndex = 5;
-        toTimeElement.selectedIndex = 6;
-        break;
-      case 6:
-        fromTimeElement.selectedIndex = 6;
-        toTimeElement.selectedIndex = 7;
-        break;
-      case 7:
-        fromTimeElement.selectedIndex = 7;
-        toTimeElement.selectedIndex = 8;
-        break;
-      case 8:
-        fromTimeElement.selectedIndex = 8;
-        toTimeElement.selectedIndex = 9;
-        break;
-      case 9:
-        fromTimeElement.selectedIndex = 9;
-        toTimeElement.selectedIndex = 10;
-        break;
-      case 10:
-        fromTimeElement.selectedIndex = 10;
-        toTimeElement.selectedIndex = 11;
-        break;
-      case 11:
-        fromTimeElement.selectedIndex = 11;
-        toTimeElement.selectedIndex = 12;
-        break;
-      case 12:
-        fromTimeElement.selectedIndex = 12;
-        toTimeElement.selectedIndex = 13;
-        break;
-      case 13:
-        fromTimeElement.selectedIndex = 13;
-        toTimeElement.selectedIndex = 14;
-        break;
-      case 14:
-        fromTimeElement.selectedIndex = 14;
-        toTimeElement.selectedIndex = 15;
-        break;
-      case 15:
-        fromTimeElement.selectedIndex = 15;
-        toTimeElement.selectedIndex = 16;
-        break;
-      case 16:
-        fromTimeElement.selectedIndex = 16;
-        toTimeElement.selectedIndex = 17;
-        break;
-      case 17:
-        fromTimeElement.selectedIndex = 17;
-        toTimeElement.selectedIndex = 18;
-        break;
-      case 18:
-        fromTimeElement.selectedIndex = 18;
-        toTimeElement.selectedIndex = 19;
-        break;
-      case 19:
-        fromTimeElement.selectedIndex = 19;
-        toTimeElement.selectedIndex = 20;
-        break;
-      case 20:
-        fromTimeElement.selectedIndex = 20;
-        toTimeElement.selectedIndex = 21;
-        break;
-      case 21:
-        fromTimeElement.selectedIndex = 21;
-        toTimeElement.selectedIndex = 22;
-        break;
-      case 22:
-        fromTimeElement.selectedIndex = 22;
-        toTimeElement.selectedIndex = 23;
-        break;
-      case 23:
-        fromTimeElement.selectedIndex = 23;
-        toTimeElement.selectedIndex = 0;
-        break;
-    }
-    this.updateFromTime();
-    this.updateToTime();
-    document.getElementById("northernButton").click();
-    document.getElementById('toggle-bugs-button').click();
-    document.getElementById('toggle-fish-button').click();
-
+    // switch state back to default, then do work
     this.setState({
-      // add a setState to the queue so we can make sure we cook once
-      // everything up top is done updating
+      displayBugs: false,
+      displayFish: false,
+      fromTime: "12 AM",
+      toTime: "11 PM",
+      hemisphere: "northern",
+      months: []
     }, () => {
-      this.cook();
-    });
+      const date = new Date();
+      const hour = date.getHours(); // expect 0 - 23
+      const month = date.getMonth(); // expect 0 - 11
+      // using .click() will mimic the user actually clicking
+      // and even call functions
+      var monthButton = document.getElementById("months-group").children[month];
+      monthButton.click();
+      var fromTimeElement = document.getElementById("from-time");
+      var toTimeElement = document.getElementById("to-time");
+      switch(hour) {
+        case 0:
+          fromTimeElement.selectedIndex = 0;
+          toTimeElement.selectedIndex = 1;
+          break;
+        case 1:
+          fromTimeElement.selectedIndex = 1;
+          toTimeElement.selectedIndex = 2;
+          break;
+        case 2:
+          fromTimeElement.selectedIndex = 2;
+          toTimeElement.selectedIndex = 3;
+          break;
+        case 3:
+          fromTimeElement.selectedIndex = 3;
+          toTimeElement.selectedIndex = 4;
+          break;
+        case 4:
+          fromTimeElement.selectedIndex = 4;
+          toTimeElement.selectedIndex = 5;
+          break;
+        case 5:
+          fromTimeElement.selectedIndex = 5;
+          toTimeElement.selectedIndex = 6;
+          break;
+        case 6:
+          fromTimeElement.selectedIndex = 6;
+          toTimeElement.selectedIndex = 7;
+          break;
+        case 7:
+          fromTimeElement.selectedIndex = 7;
+          toTimeElement.selectedIndex = 8;
+          break;
+        case 8:
+          fromTimeElement.selectedIndex = 8;
+          toTimeElement.selectedIndex = 9;
+          break;
+        case 9:
+          fromTimeElement.selectedIndex = 9;
+          toTimeElement.selectedIndex = 10;
+          break;
+        case 10:
+          fromTimeElement.selectedIndex = 10;
+          toTimeElement.selectedIndex = 11;
+          break;
+        case 11:
+          fromTimeElement.selectedIndex = 11;
+          toTimeElement.selectedIndex = 12;
+          break;
+        case 12:
+          fromTimeElement.selectedIndex = 12;
+          toTimeElement.selectedIndex = 13;
+          break;
+        case 13:
+          fromTimeElement.selectedIndex = 13;
+          toTimeElement.selectedIndex = 14;
+          break;
+        case 14:
+          fromTimeElement.selectedIndex = 14;
+          toTimeElement.selectedIndex = 15;
+          break;
+        case 15:
+          fromTimeElement.selectedIndex = 15;
+          toTimeElement.selectedIndex = 16;
+          break;
+        case 16:
+          fromTimeElement.selectedIndex = 16;
+          toTimeElement.selectedIndex = 17;
+          break;
+        case 17:
+          fromTimeElement.selectedIndex = 17;
+          toTimeElement.selectedIndex = 18;
+          break;
+        case 18:
+          fromTimeElement.selectedIndex = 18;
+          toTimeElement.selectedIndex = 19;
+          break;
+        case 19:
+          fromTimeElement.selectedIndex = 19;
+          toTimeElement.selectedIndex = 20;
+          break;
+        case 20:
+          fromTimeElement.selectedIndex = 20;
+          toTimeElement.selectedIndex = 21;
+          break;
+        case 21:
+          fromTimeElement.selectedIndex = 21;
+          toTimeElement.selectedIndex = 22;
+          break;
+        case 22:
+          fromTimeElement.selectedIndex = 22;
+          toTimeElement.selectedIndex = 23;
+          break;
+        case 23:
+          fromTimeElement.selectedIndex = 23;
+          toTimeElement.selectedIndex = 0;
+          break;
+      }
+      this.updateFromTime();
+      this.updateToTime();
+      document.getElementById("northernButton").click();
+      document.getElementById('toggle-bugs-button').click();
+      document.getElementById('toggle-fish-button').click();
 
+      this.setState({
+        // add a setState to the queue so we can make sure we cook once
+        // everything up top is done updating
+      }, () => {
+        this.cook();
+      });
+    });
   }
 
   componentDidMount() {
