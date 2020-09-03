@@ -101,7 +101,7 @@ class App extends Component {
 
   fetchItems() {
     // "http://localhost:3000/bugs"
-    fetch("/data/stock/stock_bugs.json")
+    fetch("https://acomanzo.github.io/animal-crossing-dex/data/stock/stock_bugs.json")
       .then(response => response.json())
       .then(function(data) {
 
@@ -124,7 +124,7 @@ class App extends Component {
       .catch(error => console.log("Fetch error: " + error));
 
       //http://localhost:3001/fish
-    fetch("/data/stock/stock_fish.json")
+    fetch("https://acomanzo.github.io/animal-crossing-dex/data/stock/stock_fish.json")
       .then(response => response.json())
       .then(function(data) {
 
