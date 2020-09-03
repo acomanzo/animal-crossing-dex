@@ -100,7 +100,8 @@ class App extends Component {
   }
 
   fetchItems() {
-    fetch("http://localhost:3000/bugs")
+    // "http://localhost:3000/bugs"
+    fetch("../data/stock/stock_bugs.json")
       .then(response => response.json())
       .then(function(data) {
 
@@ -122,7 +123,8 @@ class App extends Component {
       }.bind(this))
       .catch(error => console.log("Fetch error: " + error));
 
-    fetch("http://localhost:3001/fish")
+      //http://localhost:3001/fish
+    fetch("../data/stock/stock_fish.json")
       .then(response => response.json())
       .then(function(data) {
 
