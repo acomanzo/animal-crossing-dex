@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d035825d61f9b7e38aeec3e6c603aed5",
+    "revision": "5c884cbfc7216b2764886f9270d79c6c",
     "url": "/animal-crossing-dex/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animal-crossing-dex/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "afa650f6134895396d2c",
+    "revision": "75ff2c619b6088fadc78",
     "url": "/animal-crossing-dex/static/css/main.1f2185d8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animal-crossing-dex/static/js/2.9bb8f2e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afa650f6134895396d2c",
-    "url": "/animal-crossing-dex/static/js/main.a70d4646.chunk.js"
+    "revision": "75ff2c619b6088fadc78",
+    "url": "/animal-crossing-dex/static/js/main.50988496.chunk.js"
   },
   {
     "revision": "a75c5201bca8a0db21e1",

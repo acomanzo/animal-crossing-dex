@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/animal-crossing-dex/static/css/main.1f2185d8.chunk.css",
-    "main.js": "/animal-crossing-dex/static/js/main.a70d4646.chunk.js",
-    "main.js.map": "/animal-crossing-dex/static/js/main.a70d4646.chunk.js.map",
+    "main.js": "/animal-crossing-dex/static/js/main.50988496.chunk.js",
+    "main.js.map": "/animal-crossing-dex/static/js/main.50988496.chunk.js.map",
     "runtime-main.js": "/animal-crossing-dex/static/js/runtime-main.c35267a7.js",
     "runtime-main.js.map": "/animal-crossing-dex/static/js/runtime-main.c35267a7.js.map",
     "static/css/2.af3c1da9.chunk.css": "/animal-crossing-dex/static/css/2.af3c1da9.chunk.css",
     "static/js/2.9bb8f2e3.chunk.js": "/animal-crossing-dex/static/js/2.9bb8f2e3.chunk.js",
     "static/js/2.9bb8f2e3.chunk.js.map": "/animal-crossing-dex/static/js/2.9bb8f2e3.chunk.js.map",
     "index.html": "/animal-crossing-dex/index.html",
-    "precache-manifest.980dc192717ed058061e50e1a9a9dd96.js": "/animal-crossing-dex/precache-manifest.980dc192717ed058061e50e1a9a9dd96.js",
+    "precache-manifest.ae46952d8c9df9355dd4f3a9b2300695.js": "/animal-crossing-dex/precache-manifest.ae46952d8c9df9355dd4f3a9b2300695.js",
     "service-worker.js": "/animal-crossing-dex/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/animal-crossing-dex/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.1f2185d8.chunk.css.map": "/animal-crossing-dex/static/css/main.1f2185d8.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.9bb8f2e3.chunk.js",
     "static/css/main.1f2185d8.chunk.css",
-    "static/js/main.a70d4646.chunk.js"
+    "static/js/main.50988496.chunk.js"
   ]
 }
